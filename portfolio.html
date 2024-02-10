@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>MyPortfolio</title>
+      <link rel="stylesheet" href="PortfolioCss.css">
+      <style>
+      </style>
+   </head>
+   <body  style="background-color:rgb(208, 124, 233);">
+    <img src="C:\Users\tanay\Documents\IMG_20240127_125343.jpg" id="image">
+      <div id="mainbox" onclick="openFunction()">&#9776; </div>
+      <div id="menu" class="sidemenu">
+        <a href="#" class="closebtn" onclick="closeFunction()">&times;</a>
+         <a href="#">Home</a>
+         <a href="https://www.linkedin.com/in/tanaya-bandodkar-a6b108286?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYPV%2FI7fMSya%2BtOsCJKRaTg%3D%3D">About</a>
+         <a href="#">Resume</a>
+         <a href="#">Contact</a>
+         
+      </div>
+      <div class="caption">
+        <h1>HELLO!,I am Tanaya Bandodkar.<br>WELCOME to My Portfolio.</h1>
+        <p>I am currently persuing my BE degree in Computer Science.I am
+        passionate to <br>learn new technologies.I have knowledge in various fields like Web technologies,<br>
+        Database management System,Operating System.As a passionate computer science<br> student,
+         I am deeply fascinated by the ever-evolving world of technology.<br>
+          With a strong foundation in programming languages such as Java, Python,<br> and JavaScript, 
+          I thrive on solving complex problems and creating innovative <br>solutions. 
+          My academic journey has equipped me with a diverse skill set,<br> including proficiency in data structures, algorithms,
+           and software development<br> methodologies. I am enthusiastic about exploring emerging technologies such as<br> artificial intelligence, 
+           machine learning, and blockchain, and am eager to contribute<br> to cutting-edge projects that make a
+            positive impact on society. With a relentless<br> drive for continuous learning and growth, I am committed to 
+            leveraging my skills <br>and knowledge to excel in the dynamic field of computer science."</p> 
+        <p>Thank You</p>
+        
+        </div>
+       
+      <script type="text/javascript">
+        function openFunction(){
+         document.getElementById("menu").style.width="300px";
+         document.getElementById("mainbox").style.marginLeft="300px";
+         document.getElementById("mainbox").innerHTML="";
+        }
+       function closeFunction(){
+        document.getElementById("menu").style.width="0px";
+        document.getElementById("mainbox").style.marginLeft="0px";
+        document.getElementById("mainbox").innerHTML="&#9776;";
+       }
+       </script>
+
+<div class="footer">
+    <h1>Do Not Give Up..Beginning Is Always The Hardest!</h1>
+  </div>
+   </body>
+</html>
